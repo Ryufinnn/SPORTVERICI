@@ -1,0 +1,146 @@
+#table-1 thead{
+font-size:5px;
+}
+#table-a
+{ font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 11px;
+min-width:auto;
+text-align: center;
+border-collapse: collapse;
+border: 1px solid #fff;
+box-shadow: 0px 0px 10px rgba(0,0,0,.25); 
+color:#00000;
+}
+#table-a th
+{ font-size: 12px;
+font-weight: bold;
+padding: 8px;
+background: #34a5cf;
+border-top:1px solid #aabcfe;
+border: 1px solid #fff;
+color: #fff;
+
+}
+#table-a td
+{ padding: 8px;
+background: #fff;
+border-bottom: 1px solid #ddd;
+color: #669;
+text-align:left;
+border-top: 1px solid transparent;
+}
+#table-a tr:hover td
+{ background: #d0dafd;
+color: #339;
+}
+
+#form
+{ font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+width: 1100px;
+text-align: center;
+border-collapse: collapse;
+box-shadow: 0px 0px 10px rgba(0,0,0,.25); 
+}
+#form th
+{ font-size: 12px;
+font-weight: bold;
+padding: 8px;
+background: #34a5cf;
+color: #fff;
+}
+#form td
+{ padding: 8px;
+background: #fff;
+color: #555;
+text-align:left;
+}
+
+/* form input style */
+#form input[type=text],
+#form input[type=password],input[type=time],input[type=date],textarea,select {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+	position	: relative;
+	float		: left;
+    padding: 5px;
+    margin-bottom: 5px;
+	margin-right:5px;
+    border: 2px solid #b9c9fe;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+#form input[type=text]:hover,
+#form input[type=password]:hover,
+#form textarea:hover,
+#form select:hover {
+    border-color: #aabcfe;
+}
+#form input[type=text]:focus,
+#form input[type=password]:focus,
+#form textarea:focus,
+#form select:focus {
+    border-color: skyblue;
+    outline: none; /* Remove Chrome's outline */
+}
+
+
+#form-1
+{ font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+width: 550px;
+text-align: center;
+border-collapse: collapse;
+box-shadow: 0px 0px 10px rgba(0,0,0,.25); 
+}
+#form-1 th
+{ font-size: 12px;
+font-weight: bold;
+padding: 8px;
+background: #34a5cf;
+color: #fff;
+}
+#form-1 td
+{ padding: 8px;
+background: #e8edff;
+color: #669;
+text-align:left;
+}
+
+
+#table-1
+{ font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 11px;
+min-width: 400px;
+text-align: center;
+border-collapse: collapse;
+border: 1px solid #0000;
+box-shadow: 0px 0px 10px rgba(0,0,0,.25); 
+}
+#table-1 th
+{ font-size: 12px;
+font-weight: bold;
+padding: 8px;
+background: #34a5cf;
+border-top:1px solid #0000;
+border: 1px solid #fff;
+color: #00000;
+}
+#table-1 td
+{ padding: 8px;
+background: #fff;
+border-bottom: 1px solid #ddd;
+color: #34a5cf;
+text-align:left;
+border-top: 1px solid transparent;
+}
+#table-1 tr:hover td
+{ background: #d0dafd;
+color: #0000;
+}
